@@ -12,6 +12,23 @@ Laravel Eloquent Query Cache
 Laravel Eloquent Query Cache brings back the `remember()` functionality that has been removed from Laravel a long time ago.
 It adds caching functionalities directly on the Eloquent level, making use of cache within your database queries.
 
+## Upgrade Guide to Laravel 11
+
+You should add to composer.json:
+
+```json
+"require": {
+    "rennokki/laravel-eloquent-query-cache": "^3.4.0"
+},
+
+"repositories": [
+    {
+        "type": "vcs",
+        "url": "https://github.com/muhammedsaidckr/laravel-eloquent-query-cache"
+    }
+]
+```
+
 ## 🤝 Supporting
 
 **If you are using one or more Renoki Co. open-source packages in your production apps, in presentation demos, hobby projects, school projects or so, sponsor our work with [Github Sponsors](https://github.com/sponsors/rennokki). 📦**
