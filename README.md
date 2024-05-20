@@ -18,7 +18,7 @@ You should add to composer.json:
 
 ```json
 "require": {
-    "rennokki/laravel-eloquent-query-cache": "^3.4.0"
+    "rennokki/laravel-eloquent-query-cache": "dev-master"
 },
 
 "repositories": [
